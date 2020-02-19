@@ -1,12 +1,15 @@
 /*site responsive*/
 
-@media (max-width:480px) and (max-width:780px)
+@media (max-width:480px) and (min-width:780px)
 {
-    [contenu des instruction]
+.section : 100%;
 }
 
 @media (min-width:781px) and (max-width:979px)
-
+    
+    
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px)
 
 flex-wrap: wrap;
 
@@ -15,11 +18,9 @@ flex-wrap: wrap;
 
 .sectionone
     {
-    width: 300px;
-    height: 1500px;
+    width: 35%;
+    height: auto;
     background-color: #00695C; 
-    margin-left: 300px;
-    margin-right: 0px;
     box-shadow:10px 5px 5px black}
 
 .photoprofil{border-radius:150px;
@@ -32,7 +33,10 @@ flex-wrap: wrap;
     margin-bottom: 50px;
     }
 
-
+body{
+    width: 1000px;
+    margin: auto;
+}
 
 
 H2 {text-align: center;
@@ -71,41 +75,12 @@ box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
 z-index: 100;
 }
  
-.contact{
+.sectionone h2{
 background: #b1c70d;
-height: 50px;
-width: 300px;
-margin-bottom: 300px;
-left:-15px;
-top: 30px;
-float: left;
+padding: 25px;
 box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
-z-index: 100;
 }
  
-.apropos{
-background: #b1c70d;
-height: 50px;
-width: 300px;
-margin-bottom: 200px;
-left:-15px;
-top: 30px;
-float: left;
-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
-z-index: 100;
-}
-
-.rubantwo{
-background: #b1c70d;
-height: 50px;
-width: 300px;
-margin: left 55px;
-left:-15px;
-top: 30px;
-float: left;
-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
-z-index: 100;
-}
 
 
 .iconcode{border-radius:50px;
@@ -140,12 +115,10 @@ z-index: 100;
 /*RECTANGLE 2*/
 
 .sectiontwo
-    {float: right;
-    width: 600px;
-    height: 1500px;
-    background-color:#EAECEE ; 
-    margin-right: 183px;
-    box-shadow:10px 5px 5px black}
+    {
+    width: 65%;
+   background-color:#EAECEE ; 
+    box-shadow:10px 5px 5px black;}
 
 
 body{
