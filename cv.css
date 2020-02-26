@@ -2,12 +2,12 @@
 
 @media (max-width:480px) and (min-width:780px)
 {
-.section : 100%;
+section : 100%;
 }
 
 @media (min-width:781px) and (max-width:979px)
     
-    
+
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
 @media all and (min-width: 1024px) and (max-width: 1280px)
 
@@ -22,6 +22,8 @@ flex-wrap: wrap;
     height: auto;
     background-color: #00695C; 
     box-shadow:10px 5px 5px black}
+
+
 
 .photoprofil{border-radius:150px;
     border-radius:150px;
@@ -83,33 +85,14 @@ box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
  
 
 
-.iconcode{border-radius:50px;
+.icon{border-radius:50px;
     border-radius:50px;
     border-radius:50px;
     width:50px;
     height:50spx;
-    margin-left: 25px;
-    margin-top: 50px; 
+    margin-left: 45px;
     box-shadow:10px 5px 5px black}
 
-.iconhikking{border-radius:50px;
-    border-radius:50px;
-    border-radius:50px;
-    width:50px;
-    height:50spx;
-    margin-left: 40px;
-    margin-top: 50px;
-    box-shadow:10px 5px 5px black }
-
-
-.iconcinema{border-radius:50px;
-    border-radius:50px;
-    border-radius:50px;
-    width:50px;
-    height:50spx;
-    margin-left: 50px;
-    margin-top: 50px;
-    box-shadow:10px 5px 5px black}
 
 
 /*RECTANGLE 2*/
@@ -140,7 +123,7 @@ h1 {
 .sarah { color: darkorange;}
 
 
-.iconstudent{border-radius:70px;
+.iconone{border-radius:70px;
     border-radius:70px;
     border-radius:70px;
     width:70px;
@@ -151,11 +134,8 @@ h1 {
     margin-right: 20px;
     box-shadow:10px 5px 5px black }
 
-.formation { 
-font-size: 30px}
 
-
-.icondirection{
+.icontwo{
     border-radius:30px;
     width:30px;
     height:30spx;
@@ -165,39 +145,6 @@ font-size: 30px}
     margin-bottom: -10px;
 box-shadow:10px 5px 5px black}
 
-.texteone{
-font-size: 20px;}
-
-.iconpoint{
-    border-radius:30px;
-    width:30px;
-    height:30spx;
-    margin-left: 110px;
-    margin-top: -20px;
-    margin-right: 10px;
-    margin-bottom: -10px;
-  }
-
-
-.textetwo{ 
-font-size: 20px;}
-
-
-.iconexp{
-    border-radius:70px;
-    width:70px;
-    height:70spx;
-    margin-left:10px;
-    margin-top: 50px;
-    margin-bottom: -20px;
-    margin-right: 20px;
-    box-shadow:10px 5px 5px black}
-
-.exppro{
-    font-size: 30px;
-}
-
-.expone{ font-size: 20px;}
 
 
 hr {margin-top: -30px;
