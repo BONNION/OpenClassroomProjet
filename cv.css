@@ -9,7 +9,7 @@ section : 100%;
     
 
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
-@media all and (min-width: 1024px) and (max-width: 1280px)
+@media all and (min-width: 980px) and (max-width: 1280px)
 
 flex-wrap: wrap;
 
@@ -51,19 +51,13 @@ flex-wrap: wrap;
 }
 
 
-
-
-
-
-
-
 /*RECTANGLE 1*/
 
 .sectionone
     {
     width: 35%;
     height: auto;
-    background-color: #00695C; 
+    background-color:#DBCB12 ; 
     box-shadow:10px 5px 5px black}
 
 
@@ -83,45 +77,28 @@ body{
     margin: auto;
 }
 
+.intitule h2{
+    text-align: left;
+    margin : 50px; 
+}
 
 H2 {text-align: center;
     font-size: 25px;
-    font-family:"Arrial Narrow", "Georgia", sans-serif;}
-
+    font-family:"Arrial Narrow", "Georgia", sans-serif;
+    color:#DBCB12;}
 
 
 p {text-align: center;
 font-size: 20px;
 font-family: "Arrial Narrow", "Georgia" "sans-serif";
 margin-top: 60px;
-margin-bottom: 60px;}
+margin-bottom: 40px;
+}
 
 
-#fond {
-position: relative;
-margin: 0px auto;
-width: 350px;
-background: #00695C;
-border-radius: 5px;
-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
-z-index: 10;
-height:110px;
-}
- 
-.ruban {
-background: #b1c70d;
-height: 50px;
-width: 300px;
-margin: left 55px;
-left:-15px;
-top: 30px;
-float: left;
-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
-z-index: 100;
-}
  
 .sectionone h2{
-background: #b1c70d;
+background: #00695C;
 padding: 25px;
 box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
 }
@@ -163,17 +140,12 @@ h1 {
 }
 
 
-.sarah { color: darkorange;}
+.sarah { color: #00695C;}
 
 
-.iconone{border-radius:70px;
-    border-radius:70px;
-    border-radius:70px;
-    width:70px;
-    height:70spx;
-    margin-left: -300px;
-    margin-top: 50px;
-    margin-bottom: -20px;
+.iconone
+    {border-radius:70px;
+    height:70px;
     margin-right: 20px;
     box-shadow:10px 5px 5px black }
 
